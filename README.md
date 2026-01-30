@@ -30,14 +30,14 @@ By the end of this course, you will be able to:
 ### Option 1: Run in the Cloud (Recommended for beginners)
 Click one of these badges to launch the notebooks in your browser - no installation needed!
 
-- **Binder:** [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/YOUR-USERNAME/REPO-NAME/main)
-- **Google Colab:** [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/YOUR-USERNAME/REPO-NAME)
+- **Binder:** [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/fmamitrotta/aeroelastic-instabilities-jupyter/main)
+- **Google Colab:** [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/fmamitrotta/aeroelastic-instabilities-jupyter)
 
 ### Option 2: Local Installation
 ```bash
 # Clone the repository
-git clone https://github.com/YOUR-USERNAME/REPO-NAME.git
-cd REPO-NAME
+git clone https://github.com/fmamitrotta/aeroelastic-instabilities-jupyter.git
+cd aeroelastic-instabilities-jupyter
 
 # Create conda environment
 conda env create -f environment.yml
@@ -69,11 +69,12 @@ jupyter notebook
 ## 💻 Required Software
 
 All notebooks require:
-- Python 3.8+
+- Python 3.9+
 - NumPy
 - SciPy
 - Matplotlib
-- (add other specific packages)
+- Jupyter
+- Ipywidgets
 
 See `environment.yml` or `requirements.txt` for complete dependencies.
 
@@ -93,7 +94,7 @@ See `environment.yml` or `requirements.txt` for complete dependencies.
 **Instructor:** Francesco M. A. Mitrotta  
 **Email:** francesco.mitrotta@uc3m.es  
 
-For issues with the notebooks, please [open an issue](https://github.com/YOUR-USERNAME/REPO-NAME/issues).
+For issues with the notebooks, please [open an issue](https://github.com/fmamitrotta/aeroelastic-instabilities-jupyter/issues).
 
 ## 📄 License
 
