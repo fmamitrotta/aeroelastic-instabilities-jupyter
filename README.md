@@ -13,9 +13,9 @@ This 10-hour doctoral course (1 ECTS credit) provides a hands-on introduction to
 
 By the end of this course, you will be able to:
 - Understand the fundamental physics of aeroelastic instabilities
-- Model and analyze static divergence and dynamic flutter
-- Apply quasi-steady and unsteady aerodynamic theories
-- Implement the k-method and pk-method for flutter analysis
+- Model and analyze static divergence for the typical section
+- Apply quasi-steady aerodynamics to study the simplified dynamic behavior of the typical section
+- Understand Theodorsen's unsteady aerodynamic theory
 - Use Python for aeroelastic simulations and visualization
 
 ## 📋 Prerequisites
@@ -51,14 +51,13 @@ jupyter notebook
 ```
 .
 ├── notebooks/
-│   ├── 00_Python_Crash_Course.ipynb
-│   ├── 01_Static_Divergence.ipynb
-│   ├── 02_Flutter_Quasisteady.ipynb
-│   ├── 03_Theodorsen_Function.ipynb
-│   ├── 04_Flutter_k_Method.ipynb
-│   ├── 05_Flutter_pk_Method.ipynb
+│   ├── 00_Python_and_Jupyter_Intro.ipynb
+│   ├── 01_Aeroelastic_Polar_and_Torsional_Divergence.ipynb
+│   ├── 02_Quasi_Steady_Aerodynamics_and_the_Heave-Only_Model.ipynb
+│   ├── 03_Quasi_Steady_Flutter_of_the_Heave-Pitch_Typical_Section.ipynb
+│   ├── 04_Unsteady_Aerodynamics_and_Theodorsen_Function.ipynb
 │   └── Assignment_Galloping.ipynb
-├── data/              # Data files (if any)
+├── data/              # Data files
 ├── figures/           # Output figures
 ├── utils/             # Helper functions
 ├── environment.yml    # Conda environment
@@ -75,13 +74,14 @@ All notebooks require:
 - Matplotlib
 - Jupyter
 - Ipywidgets
+- Ipympl
 
 See `environment.yml` or `requirements.txt` for complete dependencies.
 
 ## 📝 How to Use These Materials
 
 1. Start with **Notebook 0** if you're new to Python
-2. Work through notebooks **1-5** sequentially during class sessions
+2. Work through notebooks **1-4** sequentially during class sessions
 3. Complete the **take-home assignment** after Session 2
 4. Each notebook contains:
    - Theory introduction
