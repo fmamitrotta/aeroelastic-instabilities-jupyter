@@ -7,16 +7,15 @@ Interactive course materials for understanding static and dynamic aeroelastic in
 
 ## 🎯 Course Overview
 
-This 10-hour doctoral course (1 ECTS credit) provides a hands-on introduction to aeroelastic phenomena through computational exercises. Students will explore divergence, flutter, and the effects of unsteady aerodynamics using Python and Jupyter notebooks.
+This 10-hour short doctoral course (1 ECTS credit) provides a hands-on introduction to aeroelastic phenomena through computational exercises. The goal is to allow participants with no specific background in aerospace engineering and prior programming experience in Python to explore the phenomena of divergence and flutter using Python and Jupyter notebooks.
 
 ## 📚 Learning Objectives
 
 By the end of this course, you will be able to:
 - Understand the fundamental physics of aeroelastic instabilities
 - Model and analyze static divergence for the typical section
-- Apply quasi-steady aerodynamics to study the simplified dynamic behavior of the typical section
-- Understand Theodorsen's unsteady aerodynamic theory
-- Use Python for aeroelastic simulations and visualization
+- Understand quasi-steady aerodynamics and the heave approximation
+- Analyze flutter for the 2-DOF typical section using quasi-steady aerodynamics
 
 ## 📋 Prerequisites
 
@@ -28,12 +27,16 @@ By the end of this course, you will be able to:
 ## 🚀 Getting Started
 
 ### Option 1: Run in the Cloud (Recommended for beginners)
+
 Click one of these badges to launch the notebooks in your browser - no installation needed!
 
 - **Binder:** [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/fmamitrotta/aeroelastic-instabilities-jupyter/main)
 - **Google Colab:** [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/fmamitrotta/aeroelastic-instabilities-jupyter)
 
 ### Option 2: Local Installation
+
+If you are an experienced user and prefer to run the notebooks locally, make sure you have [git](https://git-scm.com/) and [Anaconda](https://anaconda.org/) installed, and then follow these steps:
+
 ```bash
 # Clone the repository
 git clone https://github.com/fmamitrotta/aeroelastic-instabilities-jupyter.git
@@ -41,7 +44,7 @@ cd aeroelastic-instabilities-jupyter
 
 # Create conda environment
 conda env create -f environment.yml
-conda activate aeroelasticity
+conda activate aeroelastic-instabilities-jupyter
 
 # Launch Jupyter
 jupyter notebook
@@ -49,17 +52,13 @@ jupyter notebook
 
 ## 📁 Repository Structure
 ```
-.
 ├── notebooks/
 │   ├── 00_Python_and_Jupyter_Intro.ipynb
 │   ├── 01_Aeroelastic_Polar_and_Torsional_Divergence.ipynb
-│   ├── 02_Quasi_Steady_Aerodynamics_and_the_Heave-Only_Model.ipynb
-│   ├── 03_Quasi_Steady_Flutter_of_the_Heave-Pitch_Typical_Section.ipynb
-│   ├── 04_Unsteady_Aerodynamics_and_Theodorsen_Function.ipynb
-│   └── Assignment_Galloping.ipynb
-├── data/              # Data files
-├── figures/           # Output figures
-├── utils/             # Helper functions
+│   ├── 02_Quasi-Steady_Aerodynamics_and_the_Heave-Only_Model.ipynb
+│   ├── 03_Flutter_of_the_Heave-Pitch_Typical_Section_with_Quasi-Steady_Aerodynamics.ipynb
+│   └── Assignment_Aeroelastic_Galloping.ipynb
+├── figures/           # Notebook figures
 ├── environment.yml    # Conda environment
 ├── requirements.txt   # Pip requirements
 └── README.md
@@ -73,16 +72,13 @@ All notebooks require:
 - SciPy
 - Matplotlib
 - Jupyter
-- Ipywidgets
 - Ipympl
-
-See `environment.yml` or `requirements.txt` for complete dependencies.
 
 ## 📝 How to Use These Materials
 
 1. Start with **Notebook 0** if you're new to Python
-2. Work through notebooks **1-4** sequentially during class sessions
-3. Complete the **take-home assignment** after Session 2
+2. Work through notebooks **1-3** sequentially during class sessions
+3. Complete the **take-home assignment**
 4. Each notebook contains:
    - Theory introduction
    - Worked examples
@@ -104,7 +100,17 @@ For issues with the notebooks, please [open an issue](https://github.com/fmamitr
 
 ## 🙏 Acknowledgments
 
-Course developed as part of my research visit at the Department of Mechanics, Mathematics and Management (DMMM) of Politecnico di Bari.
+This short course was developed as part of my research visit at the Department of Mechanics, Mathematics and Management (DMMM) of Politecnico di Bari funded by the _"Call for the recruitment of visiting professors/researchers at DMMM for the year 2025"_.
+
+## References
+
+The following references were used in the development of this course:
+- Krüger, W. (2025). Introduction into Aeroelasticity (lecture notes). [MechaTwing Summer School](https://www.dlr.de/en/ae/latest/events/mechatwing-summer-school), Gottingen, June 2 – 6, 2025.
+- Hodges, D. H., & Pierce, G. A. (2011). Introduction to Structural Dynamics and Aeroelasticity (2nd ed.). Cambridge University Press. https://doi.org/10.1017/CBO9780511997112
+- Demasi, L. (2024). Introduction to unsteady aerodynamics and dynamic aeroelasticity. Springer.
+- Dimitriadis, G. (2017). Introduction to nonlinear aeroelasticity. Wiley.
+
+In addition, the handbook [_Teaching and Learning with Jupyter_](https://jupyter4edu.github.io/jupyter-edu-book/), and the modules [CFD Python](https://github.com/barbagroup/CFDPython) and [AeroPython](https://github.com/barbagroup/AeroPython) by prof. Lorena A. Barba were invaluable resources for the development of the course materials.
 
 ---
 
