@@ -1,4 +1,4 @@
-name: aeroelasticity
+name: aeroelastic-instabilities-jupyter
 channels:
   - conda-forge
   - defaults
@@ -8,5 +8,4 @@ dependencies:
   - scipy
   - matplotlib
   - jupyter
-  - ipywidgets
   - ipympl
