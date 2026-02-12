@@ -7,7 +7,7 @@ Interactive course materials for understanding static and dynamic aeroelastic in
 
 ## 🎯 Course Overview
 
-This 10-hour short doctoral course (1 ECTS credit) provides a hands-on introduction to aeroelastic phenomena through computational exercises. The goal is to allow participants with no specific background in aerospace engineering and prior programming experience in Python to explore the phenomena of divergence and flutter using Python and Jupyter notebooks.
+This 10-hour short doctoral course (1 ECTS credit) provides a hands-on introduction to aeroelastic phenomena through computational exercises. The goal is to allow participants with diverse engineering background (no specific background in aerospace engineering is required) and no prior programming experience in Python to explore the phenomena of divergence and flutter using Python and Jupyter notebooks.
 
 ## 📚 Learning Objectives
 
@@ -19,7 +19,7 @@ By the end of this course, you will be able to:
 
 ## 📋 Prerequisites
 
-- Basic knowledge of structural dynamics and vibrations
+- Basic knowledge of dynamics and vibrations
 - Familiarity with differential equations
 - Basic programming experience (Python helpful but not required)
 - Your own laptop for hands-on exercises
