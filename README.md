@@ -57,8 +57,9 @@ jupyter notebook
 │   ├── 01_Aeroelastic_Polar_and_Torsional_Divergence.ipynb
 │   ├── 02_Quasi-Steady_Aerodynamics_and_the_Heave-Only_Model.ipynb
 │   ├── 03_Flutter_of_the_Heave-Pitch_Typical_Section_with_Quasi-Steady_Aerodynamics.ipynb
-│   └── Assignment_Aeroelastic_Galloping.ipynb
+│   └── Take-Home_Assignment_Linear_Aeroelastic_Galloping.ipynb
 ├── figures/           # Notebook figures
+├── slides/            # Lecture slides
 ├── environment.yml    # Conda environment
 ├── requirements.txt   # Pip requirements
 └── README.md
