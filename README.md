@@ -62,6 +62,7 @@ jupyter notebook
 ├── slides/            # Lecture slides
 ├── environment.yml    # Conda environment
 ├── requirements.txt   # Pip requirements
+├── LICENSE
 └── README.md
 ```
 
