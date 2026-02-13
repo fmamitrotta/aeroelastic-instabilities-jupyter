@@ -95,7 +95,7 @@ For issues with the notebooks, please [open an issue](https://github.com/fmamitr
 
 ## 📄 License
 
-(c) 2026 Francesco M. A. Mitrotta. All content is under Creative Commons Attribution [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/legalcode.txt), and all [code is under BSD-3 clause](https://github.com/engineersCode/EngComp/blob/master/LICENSE). 
+(c) 2026 Francesco M. A. Mitrotta. All content is under Creative Commons Attribution [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/legalcode.txt), and all [code is under BSD-3 clause](https://github.com/fmamitrotta/aeroelastic-instabilities-jupyter/blob/main/LICENSE). 
 
 [![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause) [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 
