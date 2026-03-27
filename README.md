@@ -55,13 +55,14 @@ jupyter notebook
 ├── notebooks/
 │   ├── 00_Python_and_Jupyter_Intro.ipynb
 │   ├── 01_Aeroelastic_Polar_and_Torsional_Divergence.ipynb
-│   ├── 02_Quasi-Steady_Aerodynamics_and_the_Heave-Only_Model.ipynb
+│   ├── 02_Quasi_Steady_Aerodynamics_and_the_Heave_Model.ipynb
 │   ├── 03_Flutter_of_the_Heave-Pitch_Typical_Section_with_Quasi-Steady_Aerodynamics.ipynb
 │   └── Take-Home_Assignment_Linear_Aeroelastic_Galloping.ipynb
-├── figures/           # Notebook figures
-├── slides/            # Lecture slides
-├── environment.yml    # Conda environment
-├── requirements.txt   # Pip requirements
+├── figures/             # Notebook figures
+├── slides/              # Lecture slides
+├── test_notebook.ipynb  # Environment verification notebook
+├── environment.yml      # Conda environment
+├── requirements.txt     # Pip requirements
 ├── LICENSE
 └── README.md
 ```
@@ -82,10 +83,9 @@ All notebooks require:
 2. Work through notebooks **1-3** sequentially during class sessions
 3. Complete the **take-home assignment**
 4. Each notebook contains:
-   - Theory introduction
-   - Worked examples
-   - Hands-on exercises
-   - Reflection questions
+   - Theory introduction with equations
+   - Worked examples with step-by-step code
+   - Hands-on exercises with TODO markers
 
 ## 📧 Contact & Support
 
