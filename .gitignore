@@ -1,0 +1,26 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+.claude/
+
+# Environment
+.env
+*.egg-info/
+
+# Student assignments (kept in separate private repos)
+notebooks/Assignments_*/
+
+# Solutions (kept in solutions branch)
+notebooks/*_SOLUTIONS.ipynb
