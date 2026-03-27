@@ -2,8 +2,13 @@
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/fmamitrotta/aeroelastic-instabilities-jupyter/main)
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/fmamitrotta/aeroelastic-instabilities-jupyter)
+[![Tests](https://github.com/fmamitrotta/aeroelastic-instabilities-jupyter/actions/workflows/test-notebooks.yml/badge.svg)](https://github.com/fmamitrotta/aeroelastic-instabilities-jupyter/actions/workflows/test-notebooks.yml)
+[![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
+[![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 
-Interactive course materials for understanding static and dynamic aeroelastic instabilities using the typical section model.
+Interactive Jupyter notebooks for learning aeroelastic instabilities (divergence, flutter, and galloping) through hands-on computation. Developed as a 10-hour doctoral course (1 ECTS) requiring no prior Python or aerospace engineering background.
+
+> **Run instantly in the cloud** — no installation needed. Click Binder or Colab above.
 
 ## 🎯 Course Overview
 
@@ -98,7 +103,6 @@ For issues with the notebooks, please [open an issue](https://github.com/fmamitr
 
 (c) 2026 Francesco M. A. Mitrotta. All content is under Creative Commons Attribution [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/legalcode.txt), and all [code is under BSD-3 clause](https://github.com/fmamitrotta/aeroelastic-instabilities-jupyter/blob/main/LICENSE). 
 
-[![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause) [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 
 ## 🙏 Acknowledgments
 
