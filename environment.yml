@@ -4,8 +4,8 @@ channels:
   - defaults
 dependencies:
   - python>=3.9
-  - numpy
-  - scipy
-  - matplotlib
+  - numpy>=1.24,<3
+  - scipy>=1.10,<2
+  - matplotlib>=3.7,<4
   - jupyter
-  - ipympl
+  - ipympl>=0.9,<1
