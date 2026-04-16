@@ -32,6 +32,5 @@ jobs:
           pytest --nbval-lax notebooks/00_Python_and_Jupyter_Intro.ipynb
           pytest --nbval-lax notebooks/01_Aeroelastic_Polar_and_Torsional_Divergence.ipynb
           pytest --nbval-lax notebooks/02_Heave_Model_with_Quasi-Steady_Aerodynamics.ipynb
-          pytest --nbval-lax notebooks/03_Pitch_Model_with_Quasi-Steady_Aerodynamics.ipynb
-          pytest --nbval-lax notebooks/04_Flutter_of_the_Heave-Pitch_Typical_Section_with_Quasi-Steady_Aerodynamics.ipynb
+          pytest --nbval-lax notebooks/03_Flutter_of_the_Heave-Pitch_Typical_Section_with_Quasi-Steady_Aerodynamics.ipynb
           pytest --nbval-lax notebooks/Take-Home_Assignment_Linear_Aeroelastic_Galloping.ipynb
