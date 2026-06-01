@@ -24,3 +24,9 @@ notebooks/Assignments_*/
 
 # Solutions (kept in solutions branch)
 notebooks/*_SOLUTIONS.ipynb
+
+# Ignore folder for test scripts and figures (not to be exposed to students)
+ignore/
+
+# Knowledge base folder (not to be exposed to students)
+knowledge_base/
