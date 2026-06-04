@@ -60,7 +60,7 @@ jupyter notebook
 ├── notebooks/
 │   ├── 00_Python_and_Jupyter_Intro.ipynb
 │   ├── 01_Aeroelastic_Polar_and_Torsional_Divergence.ipynb
-│   ├── 02_Quasi_Steady_Aerodynamics_and_the_Heave_Model.ipynb
+│   ├── 02_02_Heave_Model_with_Quasi-Steady_Aerodynamics.ipynb
 │   ├── 03_Flutter_of_the_Heave-Pitch_Typical_Section_with_Quasi-Steady_Aerodynamics.ipynb
 │   └── Take-Home_Assignment_Linear_Aeroelastic_Galloping.ipynb
 ├── figures/             # Notebook figures
